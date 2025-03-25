@@ -38,19 +38,27 @@ git clone https://github.com/dev-devendra21/syncthreads-frontend.git
 npm install
 ```
 
-### 3. Start Development Server
+### 3. Rename Environment File
+
+Rename `.env-example` to `.env` and update the following environment variable:
+
+```sh
+VITE_API_URL="http://localhost:4000/api"
+```
+
+### 4. Start Development Server
 
 ```sh
 npm run dev
 ```
 
-### 4. Build for Production
+### 5. Build for Production
 
 ```sh
 npm run build
 ```
 
-### 5. Run Production Build
+### 6. Run Production Build
 
 ```sh
 npm run preview
